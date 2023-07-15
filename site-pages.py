@@ -8,7 +8,7 @@ from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
-from new import validated_url
+from url_validation import validated_url
 
 # Specify the URL of the website you want to inspect
 url = validated_url
